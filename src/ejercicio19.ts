@@ -1,33 +1,36 @@
+//El siguiente ejercicio calcula el porcentaje de aumento que tendrán los empleados
 let sueldo: number = Number(prompt("Ingrese su sueldo"));
 let porcentaje: number = 0;
+let sueldoSinAumento: number = 0;
 let sueldoConAumento: number = 0;
+//Rangos de sueldos para saber cuanto de incremento le va a corresponder al empleado
 if (sueldo > 0 && sueldo <= 15000) {
-  sueldoConAumento = 1;
+  sueldoSinAumento = 1;
 }
 if (sueldo > 15000 && sueldo <= 20000) {
-  sueldoConAumento = 2;
+  sueldoSinAumento = 2;
 }
 if (sueldo > 20000 && sueldo <= 25000) {
-  sueldoConAumento = 3;
+  sueldoSinAumento = 3;
 }
 
-switch (sueldoConAumento) {
+switch (sueldoSinAumento) {
+  //El empleado recibe un 20% de aumento
   case 1:
-    porcentaje = sueldo * 1.2;
-    sueldoConAumento = porcentaje;
+    sueldoConAumento = sueldo * 1.2;
     console.log("El aumento de sueldo es de", sueldoConAumento);
     break;
+  //El empleado recibe un 10% de aumento
   case 2:
-    porcentaje = sueldo * 1.1;
-    sueldoConAumento = porcentaje;
+    sueldoConAumento = sueldo * 1.1;
     console.log("El aumento de sueldo es de", sueldoConAumento);
     break;
+  //El empleado recibe un 5% de aumento
   case 3:
-    porcentaje = sueldo * 1.05;
-    sueldoConAumento = porcentaje;
+    sueldoConAumento = sueldo * 1.05;
     console.log("El aumento de sueldo es de", sueldoConAumento);
     break;
-
+  //El empleado no recibe ningun aumento
   default:
     console.log("No le corresponde aumento");
     break;
