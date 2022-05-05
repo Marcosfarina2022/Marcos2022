@@ -18,17 +18,20 @@ switch (sueldoSinAumento) {
   //El empleado recibe un 20% de aumento
   case 1:
     sueldoConAumento = sueldo * 1.2;
-    console.log("El aumento de sueldo es de", sueldoConAumento);
+    console.log("El aumento de sueldo es de 20%");
+    console.log("Usted tiene un aumento de sueldo de", sueldoConAumento);
     break;
   //El empleado recibe un 10% de aumento
   case 2:
     sueldoConAumento = sueldo * 1.1;
-    console.log("El aumento de sueldo es de", sueldoConAumento);
+    console.log("El aumento de sueldo es de 10%");
+    console.log("Usted tiene un aumento de sueldo de", sueldoConAumento);
     break;
   //El empleado recibe un 5% de aumento
   case 3:
     sueldoConAumento = sueldo * 1.05;
-    console.log("El aumento de sueldo es de", sueldoConAumento);
+    console.log("El aumento de sueldo es de 5%");
+    console.log("Usted tiene un aumento de sueldo de", sueldoConAumento);
     break;
   //El empleado no recibe ningun aumento
   default:
