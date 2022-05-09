@@ -1,3 +1,4 @@
+//Verifica que un número ingresado por teclado es par o inpar y si es 0 que vuelva a ingresar otro número
 let numero: number = Number(prompt("Ingrese un número"));
 while (numero <= 0) {
   let numero: number = Number(prompt("Ingrese otro número distinto a 0"));
