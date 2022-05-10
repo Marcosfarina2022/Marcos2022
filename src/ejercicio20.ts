@@ -12,11 +12,5 @@ while (numero !== 0) {
 
 if (canTotal > 0) {
   porcentaje = (positivos * 100) / canTotal;
-  console.log(
-    "Cantidad de positivos",
-    positivos,
-    " del ",
-    porcentaje,
-    " % del total "
-  );
+  console.log( "Cantidad de positivos",positivos, " del ", porcentaje, " % del total ");
 }
