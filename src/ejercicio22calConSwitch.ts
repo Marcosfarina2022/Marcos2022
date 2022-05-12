@@ -37,7 +37,7 @@ switch (opcion) {
   case 4:
     resultado = numero1 / numero2;
     dibujarLinea();
-    console.log("El resultado de la multiplicación es", resultado);
+    console.log("El resultado de la división es", resultado);
     dibujarLinea();
     break;
   default:
