@@ -13,4 +13,4 @@ let resultado: string = 0;
 let nom: string = prompt("Ingrese su nombre");
 let apell: string = prompt("Ingrese el apellido");
 resultado = mostrarApellidoyNombre(nom, apell, resultado);
-console.log(resultado);
+console.log("El nombre y apellido ingresado es:", resultado);
