@@ -1,5 +1,5 @@
 //Programa que suma dos arreglos de iguales dimensiones.
-function sumar(): number {
+function sumar(){
   let arregloResultado: number[] = new Array(6);
   for (let indice = 0; indice < 6; indice++) {
     arregloResultado[indice] = arreglo1[indice] + arreglo2[indice];
@@ -12,7 +12,6 @@ function sumar(): number {
       arreglo2[indice]
     );
   }
-  return sumaArreglos;
 }
 let arreglo1: number[] = new Array(6);
 for (let indice = 0; indice < 6; indice++) {
