@@ -90,15 +90,15 @@ function calcularPrecioTotal(
 
 function participarTorneo(): void {
   if (precioTotal > 3000) {
-    console.log("Por la compra realizada el cliente participa por un 0 KM");
+    console.log("Por el importe gastado, el cliente participa por un 0 KM");
   } else if (precioTotal > 2000) {
     console.log(
-      "Por la compra realizada el cliente participa por una moto 0 KM"
+      "Por el importe gastado, el cliente participa por una moto 0 KM"
     );
   } else if (precioTotal > 1000) {
-    console.log("Por la compra realizada el cliente participa por un TV LED");
+    console.log("Por el importe gastado, el cliente participa por un TV LED");
   } else {
-    console.log("Por la compra realizada el cliente no participa por nada");
+    console.log("Por el importe gastado, el cliente no participa por nada");
   }
 }
 
