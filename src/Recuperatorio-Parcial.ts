@@ -88,7 +88,7 @@ function calcularPrecioTotal(
   return total;
 }
 
-function participarTorneo(): void {
+function participarSorteo(): void {
   if (precioTotal > 3000) {
     console.log("Por el importe gastado, el cliente participa por un 0 KM");
   } else if (precioTotal > 2000) {
@@ -108,4 +108,4 @@ cargarCantidadProducto(cantidadProducto);
 mostrarDetalleCompra();
 precioTotal = calcularPrecioTotal(precioProducto, cantidadProducto);
 console.log("El precio total por la compra realizada es", precioTotal);
-participarTorneo();
+participarSorteo();
