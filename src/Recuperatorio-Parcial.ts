@@ -101,7 +101,6 @@ function participarSorteo(): void {
     console.log("Por el importe gastado, el cliente no participa por nada");
   }
 }
-
 cargarProductos(listaProducto);
 cargarPrecioProducto(precioProducto);
 cargarCantidadProducto(cantidadProducto);
